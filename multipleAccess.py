@@ -2,13 +2,13 @@ import pandas as pd
 import random
 import glob
 
-files = glob.glob("*.xlsx")
+files = glob.glob("*.xlsx") # to store all files in one 
 
 for file in files:
     print(f"\nProcessing {file}...")
     df = pd.read_excel(file)
 
-    x = df["A"].tolist()
+    x = df["A"].tolist() # set according to your filed instead A B and C
     y = df["B"].tolist()
     z = df["C"].tolist()
 

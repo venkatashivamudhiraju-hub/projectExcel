@@ -1,9 +1,9 @@
 import pandas as pd
 import random
 
-df = pd.read_excel("data.xlsx")
+df = pd.read_excel("data.xlsx") # for one file
 
-x = df["x"].tolist()
+x = df["x"].tolist() # set according to your filed instead A B and C
 y = df["y"].tolist()
 z = df["z"].tolist()
 
